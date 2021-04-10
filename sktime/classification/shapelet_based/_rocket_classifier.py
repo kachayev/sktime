@@ -26,12 +26,10 @@ class ROCKETClassifier(BaseClassifier):
 
     Parameters
     ----------
-    num_kernels             : int, number of kernels for ROCKET transform
-    (default=10,000)
+    num_kernels             : int, number of kernels for ROCKET transform (default=10,000)
     ensemble                : boolean, create ensemble of ROCKET's (default=False)
     ensemble_size           : int, size of the ensemble (default=25)
-    random_state            : int or None, seed for random, integer,
-    optional (default to no seed)
+    random_state            : int or None, seed for random, integer, optional (default to no seed)
 
     Attributes
     ----------

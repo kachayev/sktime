@@ -31,10 +31,8 @@ class Rocket(_PanelToTabularTransformer):
     Parameters
     ----------
     num_kernels  : int, number of random convolutional kernels (default 10,000)
-    normalise    : boolean, whether or not to normalise the input time
-    series per instance (default True)
-    random_state : int (ignored unless int due to compatability with Numba),
-    random seed (optional, default None)
+    normalise    : boolean, whether or not to normalise the input time series per instance (default True)
+    random_state : int (ignored unless int due to compatability with Numba), random seed (optional, default None)
     """
 
     def __init__(self, num_kernels=10_000, normalise=True, random_state=None):
